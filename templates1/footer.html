@@ -1,0 +1,8 @@
+<!--footer.html-->
+{% block footer %}
+{% if now %}
+<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">NOW TIME: {{ now }}</p>
+{% else %}
+<p style="font-family:'Courier New', Courier, monospace">website for private use only</p>
+{% endif %}
+{% endblock %}
